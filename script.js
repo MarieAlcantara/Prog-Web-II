@@ -5,13 +5,10 @@ function insereSumario () {
   ol.id = 'sumário'
   document.body.prepend(ol)
   const secoes = document.querySelectorAll('h2')
-  //for(let i-0; i<secoes.length; i++)
-  let i = 0;
-  while(i<secoes.length) {
+  for(let i-0; i<secoes.length; i++){
       const li = criarItem('#sec${i + 1}', secoes[i].textContent)
       ol.appendChild(li)
       alterarH2(secoes[i], i+1 )
-      i = i + 1
      }   
 }
 
