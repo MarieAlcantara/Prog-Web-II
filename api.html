@@ -1,36 +1,18 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>ceps</title>
-   <style>
-    body {
-      font: normal 15pt Cambria;
-      background-color: #F1FAEE;
-    }
-    h1 {
-      color: #1d3557;
-    }
-     p{
-       color: #457b9d;
-     }
-     input{
-       color: #A8DADC;
-     }
-   </style>
-</head>
-<body>
-   <h1>Seja um stalker!!</h1>
-    <p>Rápido e fácil!</p>
-    <form action="">
-      <input type="text" id="cep" placeholder="CEP" size="9">
-       <input type="text" id="estado" placeholder="Estado" size="3" disabled>
-      <input type="text" id="cidade" placeholder="Cidade" size="20" disabled><br>
-      <input type="text" id="bairro" placeholder="Bairro" size="9" disabled>
-      <input type="text" id="logradouro" placeholder="Logradouro" size="30" disabled><br>
-      <input type="button" value="Perseguir">
-    </form>    
-    <script src="json.js"></script>
-</body>
+<html lang="pt-br">	
+  <head> 		
+    <link rel="stylesheet" href="DDD.css">		
+    <meta charset="utf-8"/>		
+    <title> DDD </title>	
+  </head>
+	
+  <body background="https://www.colorhexa.com/cbf3f0.png">		
+    <form action="">			
+      <h2>Insira algum DDD para descobrir quais cidades possuem o mesmo.</h2>			
+      <input type="text" id="ddd" placeholder="DDD">
+    </form> 
+    <p>Sugestão: O município de Itaguaçu no ES possui o DDD 27, testa esse.</p>		
+    <ul> </ul>		
+    <script src="DDD.js"></script> <br> <br>	
+  </body>
 </html>
